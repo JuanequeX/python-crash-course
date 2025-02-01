@@ -18,7 +18,7 @@ print(players[-3:])
 # Looping Through a Slice
 print("Here are the first three players on my team:")
 for player in players[:3]:
-  print(player.title())
+    print(player.title())
 
 # When you’re working with data, you can use slices
 # to process your data in chunks of a specific size

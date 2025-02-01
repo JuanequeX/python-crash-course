@@ -5,19 +5,18 @@
 # How to long the list is.
 # As a result of this topics, you´ll be able to work efficiently with list of any length
 
-
 # Looping Through an Entire List
 magicians = ['alice', ' david', 'caroline']
 
 # Create a new list with stripped values
-# magicians = [magician.strip() for magician in magicians]
+magicians = [magician.strip() for magician in magicians]
 
 # Now print each name in title case
 for magician in magicians:
-
     # print(magician.title())
     print(f"{magician.title()}, that was a great trick!")
     print(f"I can't wait to see your next trick, {magician.title()}.\n")
+
 print("Thank you, everyone. That was a great magic show!")
 print("\n")
 print("-------------------")
